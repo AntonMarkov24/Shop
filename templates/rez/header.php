@@ -254,6 +254,7 @@ if ($sCurPage == "/") {
             </div>
         </div>
 
+
         <!-- this part is duplicate from cartMenu  keep it for mobile -->
         <div class="navbar-cart  collapse">
             <div class="cartMenu  col-lg-4 col-xs-12 col-md-4 ">
@@ -378,200 +379,27 @@ if ($sCurPage == "/") {
         </div>
         <!--/.navbar-cart-->
 
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#"> Home </a></li>
-                <li class="dropdown megamenu-fullwidth"><a data-toggle="dropdown" class="dropdown-toggle" href="#"> New
-                    Products <b class="caret"> </b> </a>
-                    <ul class="dropdown-menu">
-                        <li class="megamenu-content ">
-                            <ul class="col-lg-3  col-sm-3 col-md-3 unstyled noMarginLeft newCollectionUl">
-                                <li class="no-border">
-                                    <p class="promo-1"><strong> NEW COLLECTION </strong></p>
-                                </li>
-                                <li><a href="category.html"> ALL NEW PRODUCTS </a></li>
-                                <li><a href="category.html"> NEW TOPS </a></li>
-                                <li><a href="category.html"> NEW SHOES </a></li>
-                                <li><a href="category.html"> NEW TSHIRT </a></li>
-                                <li><a href="category.html"> NEW TSHOP </a></li>
-                            </ul>
-                            <ul class="col-lg-3  col-sm-3 col-md-3  col-xs-4">
-                                <li><a class="newProductMenuBlock" href="product-details.html"> <img
-                                        class="img-responsive" src="<?=SITE_TEMPLATE_PATH?>/images/site/promo1.jpg" alt="product"> <span
-                                        class="ProductMenuCaption"> <i class="fa fa-caret-right"> </i> JEANS </span>
-                                </a></li>
-                            </ul>
-                            <ul class="col-lg-3  col-sm-3 col-md-3 col-xs-4">
-                                <li><a class="newProductMenuBlock" href="product-details.html"> <img
-                                        class="img-responsive" src="<?=SITE_TEMPLATE_PATH?>/images/site/promo2.jpg" alt="product"> <span
-                                        class="ProductMenuCaption"> <i
-                                        class="fa fa-caret-right"> </i> PARTY DRESS </span> </a></li>
-                            </ul>
-                            <ul class="col-lg-3  col-sm-3 col-md-3 col-xs-4">
-                                <li><a class="newProductMenuBlock" href="product-details.html"> <img
-                                        class="img-responsive" src="<?=SITE_TEMPLATE_PATH?>/images/site/promo3.jpg" alt="product"> <span
-                                        class="ProductMenuCaption"> <i class="fa fa-caret-right"> </i> SHOES </span>
-                                </a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
 
-                <!-- change width of megamenu = use class > megamenu-fullwidth, megamenu-60width, megamenu-40width -->
-                <li class="dropdown megamenu-80width "><a data-toggle="dropdown" class="dropdown-toggle" href="#"> SHOP
-                    <b class="caret"> </b> </a>
-                    <ul class="dropdown-menu">
-                        <li class="megamenu-content">
 
-                            <!-- megamenu-content -->
 
-                            <ul class="col-lg-2  col-sm-2 col-md-2  unstyled noMarginLeft">
-                                <li>
-                                    <p><strong> Women Collection </strong></p>
-                                </li>
-                                <li><a href="#"> Kameez </a></li>
-                                <li><a href="#"> Tops </a></li>
-                                <li><a href="#"> Shoes </a></li>
-                                <li><a href="#"> T shirt </a></li>
-                                <li><a href="#"> TSHOP </a></li>
-                                <li><a href="#"> Party Dress </a></li>
-                                <li><a href="#"> Women Fragrances </a></li>
-                            </ul>
-                            <ul class="col-lg-2  col-sm-2 col-md-2  unstyled">
-                                <li>
-                                    <p><strong> Men Collection </strong></p>
-                                </li>
-                                <li><a href="#"> Panjabi </a></li>
-                                <li><a href="#"> Male Fragrances </a></li>
-                                <li><a href="#"> Scarf </a></li>
-                                <li><a href="#"> Sandal </a></li>
-                                <li><a href="#"> Underwear </a></li>
-                                <li><a href="#"> Winter Collection </a></li>
-                                <li><a href="#"> Men Accessories </a></li>
-                            </ul>
-                            <ul class="col-lg-2  col-sm-2 col-md-2  unstyled">
-                                <li>
-                                    <p><strong> Top Brands </strong></p>
-                                </li>
-                                <li><a href="#"> Diesel </a></li>
-                                <li><a href="#"> Farah </a></li>
-                                <li><a href="#"> G-Star RAW </a></li>
-                                <li><a href="#"> Lyle & Scott </a></li>
-                                <li><a href="#"> Pretty Green </a></li>
-                                <li><a href="#"> TSHOP </a></li>
-                                <li><a href="#"> TANJIM </a></li>
-                            </ul>
-                            <ul class="col-lg-3  col-sm-3 col-md-3 col-xs-6">
-                                <li class="no-margin productPopItem "><a href="product-details.html"> <img
-                                        class="img-responsive" src="<?=SITE_TEMPLATE_PATH?>/images/site/g4.jpg" alt="img"> </a> <a
-                                        class="text-center productInfo alpha90" href="product-details.html"> Eodem modo
-                                    typi <br>
-                                    <span> $60 </span> </a></li>
-                            </ul>
-                            <ul class="col-lg-3  col-sm-3 col-md-3 col-xs-6">
-                                <li class="no-margin productPopItem relative"><a href="product-details.html"> <img
-                                        class="img-responsive" src="<?=SITE_TEMPLATE_PATH?>/images/site/g5.jpg" alt="img"> </a> <a
-                                        class="text-center productInfo alpha90" href="product-details.html"> Eodem modo
-                                    typi <br>
-                                    <span> $60 </span> </a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dropdown megamenu-fullwidth"><a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                    PAGES <b class="caret"> </b> </a>
-                    <ul class="dropdown-menu">
-                        <li class="megamenu-content">
+<div class="navbar-collapse collapse">
 
-                            <!-- megamenu-content -->
-
-                            <h3 class="promo-1 no-margin hidden-xs"> 40+ HTML PAGES || AVAILABLE ONLY AT WRAP
-                                BOOTSTRAP </h3>
-
-                            <h3 class="promo-1sub hidden-xs"> Complete Parallax E-Commerce Boostrap Template, Responsive
-                                on any Device, 10+ color Theme + Parallax Effect </h3>
-                            <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                                <li class="no-border">
-                                    <p><strong> Home Pages </strong></p>
-                                </li>
-                                <li><a href="index.html"> Home Version 1 </a></li>
-                                <li><a href="index2.html"> Home Version 2 </a></li>
-                                <li><a href="index3.html"> Home Version 3 (BOXES) </a></li>
-                                <li><a href="index4.html"> Home Version 4 (LOOK 2)</a></li>
-                                <li><a href="index5.html"> Home Version 5 (LOOK 3)</a></li>
-                                <li><a href="index6.html"> Home Version 6 (STORY)</a></li>
-                                <li><a href="index-header2.html"> Header Version 2 </a></li>
-                                <li><a href="index-header3.html"> Header Version 3 </a></li>
-                                <li><a href="index-static-search.html">Header Version 4<br>
-                                    ( Static Search Form)</a></li>
-                            </ul>
-                            <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                                <li class="no-border">
-                                    <p><strong> Featured Pages </strong></p>
-                                </li>
-                                <li><a href="category.html"> Category </a></li>
-                                <li><a href="category2.html"> Category Style 2 [Parallax] </a></li>
-                                <li><a href="sub-category.html"> Sub Category </a></li>
-                                <li><a href="category-list.html"> Category List View </a></li>
-                                <li><a href="category-product-hover.html"> Category [Product Hover] </a></li>
-                                <li><a href="category-product-slide.html"> Category [Product Slide] </a></li>
-                                <li><a href="product-details.html"> Product Details Version 1 </a></li>
-                                <li><a href="product-details-style2.html"> Product Details Version 2 </a></li>
-                                <li><a href="product-details-style3.html"> Product Details Version 3 (Custom Thumbnail
-                                    Position)</a></li>
-                                <li><a href="product-details-style4.html"> Product Details Version 4 (Zoom + Litebox
-                                    )</a></li>
-                            </ul>
-                            <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                                <li class="no-border">
-                                    <p><strong> &nbsp; </strong></p>
-                                </li>
-                                <li><a href="cart.html"> Cart </a></li>
-                                <li><a href="blog.html"> Blog </a></li>
-                                <li><a href="blog-details.html"> Blog Details </a></li>
-                                <li><a href="contact-us.html"> Contact us </a></li>
-                                <li><a href="contact-us-2.html"> Contact us 2 (No Fixed Map) </a></li>
-                                <li><a href="terms-conditions.html"> Terms &amp; Conditions </a></li>
-                            </ul>
-                            <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                                <li class="no-border">
-                                    <p><strong> Checkout </strong></p>
-                                </li>
-                                <li><a href="checkout-0.html"> Checkout Before </a></li>
-                                <li><a href="checkout-1.html"> checkout step 1 </a></li>
-                                <li><a href="checkout-2.html"> checkout step 2 </a></li>
-                                <li><a href="checkout-3.html"> checkout step 3 </a></li>
-                                <li><a href="checkout-4.html"> checkout step 4 </a></li>
-                                <li><a href="checkout-5.html"> checkout step 5 </a></li>
-                                <li><a href="thanks-for-order.html"> Thanks for order</a></li>
-                            </ul>
-                            <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                                <li class="no-border">
-                                    <p><strong> User Account </strong></p>
-                                </li>
-                                <li><a href="account-1.html"> Account Login </a></li>
-                                <li><a href="account.html"> My Account </a></li>
-                                <li><a href="my-address.html"> My Address </a></li>
-                                <li><a href="user-information.html"> User information </a></li>
-                                <li><a href="wishlist.html"> Wish List </a></li>
-                                <li><a href="order-list.html"> Order list </a></li>
-                                <li><a href="order-status.html"> Order Status </a></li>
-                                <li><a href="forgot-password.html"> Forgot Password </a></li>
-                            </ul>
-                            <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                                <li class="no-border">
-                                    <p><strong> &nbsp; </strong></p>
-                                </li>
-                                <li><a href="single-product-modal.html"> Single Product Details Modal</a></li>
-                                <li><a href="single-subscribe-modal.html"> Single Subscribe Modal</a></li>
-                                <li><a href="error-page.html"> Error Page </a></li>
-                                <li><a href="blank-page.html"> Blank Page </a></li>
-                                <li><a href="form.html"> Basic Form Element </a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+<?$APPLICATION->IncludeComponent("bitrix:menu", "TopMenu", Array(
+	"COMPONENT_TEMPLATE" => "horizontal_multilevel",
+		"ROOT_MENU_TYPE" => "top",	// Тип меню для первого уровня
+		"MENU_CACHE_TYPE" => "A",	// Тип кеширования
+		"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+		"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+		"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+		"MAX_LEVEL" => "2",	// Уровень вложенности меню
+		"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+		"USE_EXT" => "Y",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+		"DELAY" => "N",	// Откладывать выполнение шаблона меню
+		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+	),
+	false
+);?>
+            
 
             <!--- this part will be hidden for mobile version -->
             <div class="nav navbar-nav navbar-right hidden-xs">
@@ -747,80 +575,65 @@ if ($sCurPage == "/") {
                 <div class="slider-item slider-item-img1"><img src="<?=SITE_TEMPLATE_PATH?>/images/slider/slider0.jpg"
                                                                class="img-responsive parallaximg sliderImg" alt="img">
                 </div>
-                <div class="slider-item slider-item-img1">
-                    <div class="sliderInfo">
-                        <div class="container">
-                            <div class="col-lg-12 col-md-12 col-sm-12 sliderTextFull ">
-                                <div class="inner text-center">
-                                    <div class="topAnima animated">
-                                        <h1 class="uppercase xlarge">FREE SHIPPING</h1>
-
-                                        <h3 class="hidden-xs"> Free Standard Shipping on Orders Over $100 </h3>
-                                    </div>
-                                    <a class="btn btn-danger btn-lg bottomAnima animated opacity0">SHOP NOW ON TSHOP
-                                        <span class="arrowUnicode">►</span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="<?=SITE_TEMPLATE_PATH?>/images/slider/slider1.jpg" class="img-responsive parallaximg sliderImg" alt="img"></div>
-                <!--/.slider-item-->
-
-                <div class="slider-item slider-item-img2 ">
-                    <div class="sliderInfo">
-                        <div class="container">
-                            <div class="col-lg-12 col-md-12 col-sm-12 sliderTextFull  ">
-                                <div class="inner dark maxwidth500 text-center animated topAnima">
-                                    <div class=" ">
-                                        <h1 class="uppercase xlarge"> CUSTOM HTML BLOCK</h1>
-
-                                        <h3 class="hidden-xs"> Custom Slides to Your Slider </h3>
-                                    </div>
-                                    <a class="btn btn-danger btn-lg">SHOP NOW ON TSHOP <span
-                                            class="arrowUnicode">►</span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="<?=SITE_TEMPLATE_PATH?>/images/slider/slider3.jpg" class="img-responsive parallaximg sliderImg" alt="img"></div>
-                <!--/.slider-item-->
-
-                <div class="slider-item slider-item-img3 ">
-                    <div class="sliderInfo">
-                        <div class="container">
-                            <div class="col-lg-5 col-md-4 col-sm-6 col-xs-8   pull-left sliderText white hidden-xs">
-                                <div class="inner">
-                                    <h1>TSHOP JEANS</h1>
-
-                                    <h3 class="price "> Free Shipping on $100</h3>
-
-                                    <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                        diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-                                        volutpat. </p>
-                                    <a href="category.html" class="btn btn-primary">SHOP NOW <span class="arrowUnicode">►</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="<?=SITE_TEMPLATE_PATH?>/images/slider/slider4.jpg" class="img-responsive parallaximg sliderImg" alt="img"></div>
-                <!--/.slider-item-->
-
-                <div class="slider-item slider-item-img3">
-                    <div class="sliderInfo">
-                        <div class="container">
-                            <div class="col-lg-5 col-md-6 col-sm-5 col-xs-5 pull-left sliderText blankstyle transformRight">
-                                <div class="inner text-right"><img src="<?=SITE_TEMPLATE_PATH?>/images/slider/color.png" class="img-responsive"
-                                                                   alt="img"></div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-7   pull-left sliderText blankstyle color-white">
-                                <div class="inner">
-                                    <h1 class="uppercase topAnima animated ">10+ Amazing Color Theme</h1>
-
-                                    <p class="bot tomAnima animated opacity0 hidden-xs"> Fully responsive bootstrap
-                                        Ecommerce Template. Available in 10+ color schemes and easy to set. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="<?=SITE_TEMPLATE_PATH?>/images/slider/6.jpg" class="img-responsive parallaximg sliderImg" alt="img"></div>
+                
+                <?$APPLICATION->IncludeComponent(
+	"bitrix:news.list",
+	"TopSlider",
+	Array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "N",
+		"COMPONENT_TEMPLATE" => ".default",
+		"DETAIL_URL" => "",
+		"DISPLAY_BOTTOM_PAGER" => "N",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"FIELD_CODE" => array(0=>"PREVIEW_TEXT",1=>"PREVIEW_PICTURE",2=>"DETAIL_TEXT",3=>"",),
+		"FILTER_NAME" => "",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"IBLOCK_ID" => "5",
+		"IBLOCK_TYPE" => "Slider",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"MESSAGE_404" => "",
+		"NEWS_COUNT" => "20",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => "",
+		"PAGER_TITLE" => "Слайдер",
+		"PARENT_SECTION" => "",
+		"PARENT_SECTION_CODE" => "",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"PROPERTY_CODE" => array(0=>"TYPE",1=>"BATTONNAME",),
+		"SET_BROWSER_TITLE" => "N",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_META_DESCRIPTION" => "N",
+		"SET_META_KEYWORDS" => "N",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "N",
+		"SHOW_404" => "N",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC",
+		"STRICT_SECTION_CHECK" => "N"
+	)
+);?>
             </div>
             <!--/.slider slider-v1-->
         </div>

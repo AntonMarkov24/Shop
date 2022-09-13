@@ -19,7 +19,7 @@
 
                                         	<h3 class="hidden-xs"> <?=$arItem["PREVIEW_TEXT"];?></h3>
                                    		 </div>
-                                    	<a class="btn btn-danger btn-lg bottomAnima animated opacity0" href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><?=$arItem["DISPLAY_PROPERTIES"]["BATTONNAME"]["VALUE"];?>
+                                    	<a class="btn btn-danger btn-lg bottomAnima animated opacity0" href="novelties"><?=$arItem["DISPLAY_PROPERTIES"]["BATTONNAME"]["VALUE"];?>
                                         	<span class="arrowUnicode">►</span></a></div>
                             	</div>
                         	</div>
@@ -37,7 +37,7 @@
                                     <h3 class="price "> <?=$arItem["PREVIEW_TEXT"];?></h3>
 
                                     <p class="hidden-xs"><?=$arItem["DETAIL_TEXT"];?> </p>
-                                    <a href="<?echo $arItem["DETAIL_PAGE_URL"]?>" class="btn btn-primary"><?=$arItem["DISPLAY_PROPERTIES"]["BATTONNAME"]["VALUE"];?><span class="arrowUnicode">►</span></a>
+                                    <a href="novelties" class="btn btn-primary"><?=$arItem["DISPLAY_PROPERTIES"]["BATTONNAME"]["VALUE"];?><span class="arrowUnicode">►</span></a>
                                 </div>
                             </div>
                         </div>

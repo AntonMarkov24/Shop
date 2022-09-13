@@ -1,7 +1,12 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile(__FILE__);
 ?>
-
+<?
+$sCurPage = $APPLICATION->GetCurPage(false);
+if ($sCurPage == "/") {
+    $bIsMain = true;
+}
+?>
 
 </div>
 <footer>
@@ -119,7 +124,7 @@ IncludeTemplateLangFile(__FILE__);
     <!--/.footer-bottom-->
 </footer>
 
-
+<? if ($bIsMain == true): ?>
 <div class="modal fade hide" id="modalAds" role="dialog">
     <div class="modal-dialog  modal-bg-1">
         <div class="modal-body-content">
@@ -127,7 +132,7 @@ IncludeTemplateLangFile(__FILE__);
 
             <div class="modal-body">
                 <div class="col-lg-6 col-sm-8 col-xs-8">
-                    <h3>enter your <br>email to receive</h3>
+                    <h3>enter your email to receive</h3>
 
                     <p class="discountLg">10% OFF </p>
 
@@ -151,6 +156,7 @@ IncludeTemplateLangFile(__FILE__);
         </div>
     </div>
 </div>
+<?endif?>
 <!-- Le javascript
 ================================================== -->
 
